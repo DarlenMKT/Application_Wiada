@@ -3,7 +3,7 @@ import streamlit as st
 ### Avec ce code (principalement streamlit), on peut faire le déployement sur le web
 
 def main():
-    st.title('Application WIADA 2023')
+    st.title('Application Darlen WIADA 2023')
     user = st.text_input("Entrez votre nom : ")
     if st.button("Dis bonjour"):
         if user:
